@@ -1,11 +1,14 @@
 import {Text, View} from 'react-native';
 
+import {DrawerScreenWrapper} from '../../../../components';
 import React from 'react';
 
 export const Contact = () => {
   return (
-    <View>
-      <Text>Contact</Text>
-    </View>
+    <DrawerScreenWrapper>
+      <View>
+        <Text>Contact</Text>
+      </View>
+    </DrawerScreenWrapper>
   );
 };
